@@ -14,6 +14,7 @@
 
 + (ExchangeCourseAPI *) sharedInstance;
 
+
 - (ExchangeCourse *) courseFromCurrency:(Currency *) fromCurrency toCurrency:(Currency *)toCurrency;
 
 @end
